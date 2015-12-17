@@ -1,0 +1,34 @@
+[-1] Se former dans l'existant
+[-2] Mettre en place serveur de test/travail interne
+
+[1] Ameliorations du code
+-----------
++ actuellement la ponderation est fixe 70% unit test 30% style, on aimerai que la ponderation soit parametrable
+- on aimerai que pour chaque question le prof puisse decider s'il faut que l'unit test soit correcte pour prendre en compte le style
+- on aimerai qu'en mode édition, le code fourni et le code unit test le code apparaissent colorés
++ vérifier que la nouvelle version du code accepte les questions existantes dans la base de questions
+d'autres?...
+
+[2] Sécurisation du code
+---------------------------
+++ Chercher dans le code fourni par l'étudiant et desactiver execution de commandes, lecture/ecriture de fichiers, utilisation de sockets
+
+[3] Vérifier la mémoire utilisée
+-------------------------------
+Lorsque le programme s'execute, vérifier que la mémoire ne dépasse pas un seuil donné
+
+[3.1]+ Petit document installation du plug-in modifié
+---------------------------------------
+
+[4] Rendre le plug-in accesible en open-source 
+--------------------------------
+Contacter les auteurs pour ajouter nos fonctionalités dans le plugin de base
+Rendre la partie checkstyle parametrable dans les paramatres du plugin
+
+[5] Creation des questions de la base de questions
+---------------------------------------------
+Augmenter le nombre selon les TP d'algo
+
+
+[6] Modifier la convention EIGSI de codage dans les parametres du plugin
+---------------------------------------------
