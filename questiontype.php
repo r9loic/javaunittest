@@ -61,8 +61,8 @@ class qtype_javaunittest extends question_type {
                 'givencode',
                 'testclassname',
                 'junitcode',
-                'feedbacklevel'#,
-				#'auditvalue'
+                'feedbacklevel',
+		'auditvalue'
         );
     }
     

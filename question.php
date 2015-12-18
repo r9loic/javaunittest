@@ -22,7 +22,7 @@ class qtype_javaunittest_question extends question_graded_automatically {
     public $testclassname;
     public $junitcode;
     public $feedbacklevel;
-	#public $auditvalue;
+    public $auditvalue = 0.01;
     public $questionattemptid = null;
     
     /**
@@ -149,7 +149,8 @@ class qtype_javaunittest_question extends question_graded_automatically {
         
         $fraction = 0;
 		$fraction_code = 0;
-		$weight_style = 0.30;
+		#$weight_style = 0.20;
+		$weight_style = $auditvalue;
 		$weight_unittests  = 1.0 - $weight_style;
 		$num_errors_style = 0;
         $feedback = '';

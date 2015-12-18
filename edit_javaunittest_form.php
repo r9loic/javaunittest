@@ -35,9 +35,10 @@ class qtype_javaunittest_edit_form extends question_edit_form {
         $mform->setDefault ( 'feedbacklevel', FEEDBACK_ONLY_TIMES );
         
 		// -------------------------- feedback options
-        #$mform->addElement ( 'select', 'auditlevel', get_string ( 'auditlevel', 'qtype_javaunittest' ), 
-        #        $qtype->audit_values () );
-        #$mform->setDefault ( 'auditlevel', AUDIT_VALUE_30 );
+        $mform->addElement ( 'select', 'auditlevel', get_string ( 'auditlevel', 'qtype_javaunittest' ), 
+                $qtype->audit_values() 
+		);
+        $mform->setDefault ( 'auditlevel', AUDIT_VALUE_30 );
         
         // -------------------------- size of the response field
         $mform->addElement ( 'select', 'responsefieldlines', get_string ( 'responsefieldlines', 'qtype_javaunittest' ), 
