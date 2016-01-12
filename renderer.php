@@ -106,7 +106,7 @@ class qtype_javaunittest_format_plain_renderer extends plugin_renderer_base {
         $attributes['cols'] = 100;
         
 		$init_page  = '<script language="javascript" type="text/javascript" ';
-		$init_page .= 'src="/inc/edit_area/edit_area_full.js"></script> ';
+		$init_page .= 'src="/mod/editarea_0_8_2/edit_area/edit_area_full.js"></script> ';
 		#$init_page .= 'src="http://www.cdolivet.com/editarea/editarea/edit_area/edit_area_full.js"></script> ';
 		$init_page .= '<script language="javascript" type="text/javascript"> ';
 		$init_page .= 'editAreaLoader.init({id : "' . $attributes['id'] . '",syntax: "java",start_highlight: true,is_editable: ' . $attributes['is_editable'] .',replace_tab_by_spaces:4 }); ';

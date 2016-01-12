@@ -22,7 +22,7 @@ class qtype_javaunittest_question extends question_graded_automatically {
     public $testclassname;
     public $junitcode;
     public $feedbacklevel;
-    public $auditvalue = 0.01;
+    public $auditvalue = 0.1;
     public $questionattemptid = null;
     
     /**
